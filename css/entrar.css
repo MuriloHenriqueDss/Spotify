@@ -146,8 +146,8 @@ hr {
   }
   
   .switch > .slider {
-    background: #e0e2db;
-    border: 0.03rem solid #bbb;
+    background: #2c2c2c;
+    border: 0.03rem solid #2c2c2c;
     cursor: pointer;
     border-radius: 0.6rem;
     transition: all 300ms ease-in-out;
@@ -163,7 +163,7 @@ hr {
     position: absolute;
     width: 0.8rem;
     height: 0.8rem;
-    background: #4615b2;
+    background: #1c1c1c;
     top: 0.1rem;
     left: 0.1rem;
     transition: all 300ms ease-in-out;
@@ -186,7 +186,7 @@ hr {
   }
   
   .switch > .hidden-toggle:checked ~ .slider {
-    background: #4615b2;
+    background: #2c2c2c;
     box-shadow: inset 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.2),
       0 0 0.2rem rgba(50, 0, 150, 0.2);
   }
